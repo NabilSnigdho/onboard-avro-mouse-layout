@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+
+<!--
+Copyright © 2012-2015 marmuta <marmvta@gmail.com>
+
+This file is part of Onboard.
+
+Onboard is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 3 of the License, or
+(at your option) any later version.
+
+Onboard is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<keyboard 
+    id='AvroMouse'
+    format='3.2'
+    section="contributions"
+    summary="AvroMouse like bengali keyboard layout.">
+
+    <include file='key_defs.xml'/>
+
+    <box border="0.5" spacing="1.5" orientation="vertical">
+        <box spacing="1.5">
+            <panel layer='alpha' filename='AvroMouse-Alpha.svg'>
+                <key group='1' id='k' char='ক' label='ক'/>
+                <key group='1' id='kh' char='খ' label='খ'/>
+                <key group='1' id='g' char='গ' label='গ'/>
+                <key group='1' id='gh' char='ঘ' label='ঘ'/>
+                <key group='1' id='nga' char='ঙ' label='ঙ'/>
+                <key group='1' id='c' char='চ' label='চ'/>
+                <key group='1' id='ch' char='ছ' label='ছ'/>
+                <key group='1' id='j' char='জ' label='জ'/>
+                <key group='1' id='jh' char='ঝ' label='ঝ'/>
+                <key group='1' id='nya' char='ঞ' label='ঞ'/>
+                <key group='1' id='tt' char='ট' label='ট'/>
+                <key group='1' id='tth' char='ঠ' label='ঠ'/>
+                <key group='1' id='dd' char='ড' label='ড'/>
+                <key group='1' id='ddh' char='ঢ' label='ঢ'/>
+                <key group='1' id='nn' char='ণ' label='ণ'/>
+                <key group='1' id='t' char='ত' label='ত'/>
+                <key group='1' id='th' char='থ' label='থ'/>
+                <key group='1' id='d' char='দ' label='দ'/>
+                <key group='1' id='dh' char='ধ' label='ধ'/>
+                <key group='1' id='n' char='ন' label='ন'/>
+                <key group='1' id='p' char='প' label='প'/>
+                <key group='1' id='ph' char='ফ' label='ফ'/>
+                <key group='1' id='b' char='ব' label='ব'/>
+                <key group='1' id='bh' char='ভ' label='ভ'/>
+                <key group='1' id='m' char='ম' label='ম'/>
+                <key group='1' id='z' char='য' label='য'/>
+                <key group='1' id='r' char='র' label='র'/>
+                <key group='1' id='l' char='ল' label='ল'/>
+                <key group='1' id='sh' char='শ' label='শ'/>
+                <key group='1' id='ss' char='ষ' label='ষ'/>
+                <key group='1' id='s' char='স' label='স'/>
+                <key group='1' id='h' char='হ' label='হ'/>
+                <key group='1' id='rr' char='ড়' label='ড়'/>
+                <key group='1' id='rh' char='ঢ়' label='ঢ়'/>
+                <key group='1' id='y' char='য়' label='য়'/>
+                <key group='1' id='khanda_ta' char='ৎ' label='ৎ'/>
+                <key group='1' id='anushar' char='ং' label='ং'/>
+                <key group='1' id='bisharga' char='ঃ' label='ঃ'/>
+                <key group='1' id='chandra_bindu' char='ঁ' label='ঁ'/>
+
+                <key group='1' id='a' char='অ' label='অ'/>
+                <key group='1' id='aa' char='আ' label='আ'/>
+                <key group='1' id='i' char='ই' label='ই'/>
+                <key group='1' id='ii' char='ঈ' label='ঈ'/>
+                <key group='1' id='u' char='উ' label='উ'/>
+                <key group='1' id='uu' char='ঊ' label='ঊ'/>
+                <key group='1' id='rri' char='ঋ' label='ঋ'/>
+                <key group='1' id='e' char='এ' label='এ'/>
+                <key group='1' id='oi' char='ঐ' label='ঐ'/>
+                <key group='1' id='o' char='ও' label='ও'/>
+                <key group='1' id='ou' char='ঔ' label='ঔ'/>
+
+                <key group='1' id='aa_kar' char='া' label='া'/>
+                <key group='1' id='i_kar' char='ি' label='ি'/>
+                <key group='1' id='ii_kar' char='ী' label='ী'/>
+                <key group='1' id='u_kar' char='ু' label='ু'/>
+                <key group='1' id='uu_kar' char='ূ' label='ূ'/>
+                <key group='1' id='rri_kar' char='ৃ' label='ৃ'/>
+                <key group='1' id='e_kar' char='ে' label='ে'/>
+                <key group='1' id='oi_kar' char='ৈ' label='ৈ'/>
+                <key group='1' id='o_kar' char='ো' label='ো'/>
+                <key group='1' id='ou_kar' char='ৌ' label='ৌ'/>
+
+                <key group='virama' id='hasanta' char='্' label='্'/>
+
+                <key group='3' id='zo_fola' char='্য' label='্য - য ফলা'/>
+                <key group='3' id='ro_fola' char='্র' label='্র - র ফলা'/>
+
+                <key group='0.8' id='0' char='০' label='০'/>
+                <key group='0.8' id='1' char='১' label='১'/>
+                <key group='0.8' id='2' char='২' label='২'/>
+                <key group='0.8' id='3' char='৩' label='৩'/>
+                <key group='0.8' id='4' char='৪' label='৪'/>
+                <key group='0.8' id='5' char='৫' label='৫'/>
+                <key group='0.8' id='6' char='৬' label='৬'/>
+                <key group='0.8' id='7' char='৭' label='৭'/>
+                <key group='0.8' id='8' char='৮' label='৮'/>
+                <key group='0.8' id='9' char='৯' label='৯'/>
+
+                <key group='1' id='dahri' char='।' label='।'/>
+                <key group='1' id='taka' char='৳' label='৳'/>
+                <key group='1' id='rm' char='ৰ' label='ৰ'/>
+                <key group='1' id='rl' char='ৱ' label='ৱ'/>
+                <key group='1.5' id='zwj' char='‍' label='ZWJ'/>
+                <key group='1.5' id='zwnj' char='‌' label='ZWNJ'/>
+
+                <key group='1' id='k_ss' char='ক্ষ' label='ক্ষ'/>
+                <key group='1' id='ng_k' char='ঙ্ক' label='ঙ্ক'/>
+                <key group='1' id='ng_g' char='ঙ্গ' label='ঙ্গ'/>
+                <key group='1' id='j_nya' char='জ্ঞ' label='জ্ঞ'/>
+                <key group='1' id='nya_c' char='ঞ্চ' label='ঞ্চ'/>
+                <key group='1' id='nya_ch' char='ঞ্ছ' label='ঞ্ছ'/>
+                <key group='1' id='nya_j' char='ঞ্জ' label='ঞ্জ'/>
+                <key group='1' id='t_t' char='ত্ত' label='ত্ত'/>
+                <key group='1' id='ss_nn' char='ষ্ণ' label='ষ্ণ'/>
+                <key group='1' id='h_m' char='হ্ম' label='হ্ম'/>
+                <key group='1' id='nn_dd' char='ণ্ড' label='ণ্ড'/>
+
+                <key group='1.05' id='vocalic_l' char='ঌ' label='ঌ'/>
+                <key group='1.05' id='nukta' char='়' label='়'/>
+                <key group='1.05' id='avagraha' char='ঽ' label='ঽ'/>
+                <key group='1.05' id='sign_rr' char='ৄ' label='ৄ'/>
+                <key group='1.05' id='ou_length_mark' char='ৗ' label='ৗ'/>
+                <key group='1.05' id='vocalic_rr' char='ৠ' label='ৠ'/>
+                <key group='1.05' id='vocalic_ll' char='ৡ' label='ৡ'/>
+                <key group='1.05' id='sign_l' char='ৢ' label='ৢ'/>
+                <key group='1.05' id='sign_ll' char='ৣ' label='ৣ'/>
+                <key group='1.05' id='rupee_mark' char='৲' label='৲'/>
+                <key group='1.05' id='currencynumerator_one' char='৴' label='৴'/>
+                <key group='1.05' id='currencynumerator_two' char='৵' label='৵'/>
+                <key group='1.05' id='currencynumerator_three' char='৶' label='৶'/>
+                <key group='1.05' id='currencynumerator_four' char='৷' label='৷'/>
+                <key group='1.05' id='currencynumerator_less' char='৸' label='৸'/>
+                <key group='1.05' id='currencynumerator_sixteen' char='৹' label='৹'/>
+                <key group='1.05' id='isshar' char='৺' label='৺'/>
+
+                <key group='3' id='TAB' label='Tab ⭾' label_x_align = '0.5'/>
+                <key group='3' id='SPCE' label='Space'/>
+                <key group='3' id='BKSP'/>
+                <key group='3' id='RTRN' label='⏎ Enter' label_x_align = '0.5'/>
+            </panel>
+        </box>
+    </box>
+
+</keyboard>
